@@ -1,13 +1,311 @@
-body {
+* {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.app-name {
+  padding: 3rem;
+  background-color: #a1e660;
+  border-radius: 20%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  color: #fafafa;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-name-title {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+.header h2 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+  font-family: "Paytone One";
+}
+.chore-title h2 { 
+  font-weight: bolder;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.welcome-message {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.name-label {
+  font-family: "Paytone One";
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding-bottom: 0.5rem;
+  color: rgb(33, 37, 41);
+}
+
+.name-input-box {
+  margin-top: 0.5rem;
+  color: rgb(33, 37, 41);
+  font-weight: 600;
+  font-family: Helvetica, sans-serif;
+  border-radius: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.welcome-button {
+  background: #70d6ff;
+  color: #fafafa;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 2rem ;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px #7db1c6;
+}
+
+.buttons-container {
+  align-items: center;
+}
+
+.menu-buttons {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem; 
+}
+
+.cutesies {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Sub Header Button Styling */
+.explore-task-btn {
+  background: #998ceb;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fafafa;
+  border: none;
+  border-radius: 30px;
+  padding: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px #c1baed;
+}
+
+.explore-task-btn:hover {
+  background: #a3b8ff;
+}
+
+
+.view-rewards-btn {
+  background: #febd3a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fafafa;
+  border: none;
+  border-radius: 30px;
+  padding: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px #e0cba8;
+}
+
+.view-rewards-btn:hover {
+  background: #feca74; 
+}
+
+.my-profile-btn {
+  background: #fc606e;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fafafa;
+  border: none;
+  border-radius: 30px;
+  padding: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px #fab6bc;
+}
+
+.my-profile-btn:hover {
+  background: #f76d7e;
+}
+/* End Sub Header Button Styling*/
+
+
+/* Task List Styling */
+
+.chore-title {
+  padding: 1rem;
+  font-size: 2.7rem;
+}
+
+.task-list {
+  display: flex;
+  background-color: #dbf5fb;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.task-description {
+  font-size: 15px;
+}
+
+.tasks h3 {
+  font-size: 1.5rem;
+  font-family: "Paytone One";
+}
+
+.tasks .points-earned {
+  font-size: 20px;
+  color: #febd3a;
+}
+
+.task {
+  background-color: #fafafa; 
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 5px 10px 0px #b2d1d7;
+  padding: 1rem;
+  margin: 1rem; 
+}
+
+/* Add Task Form Styling */
+.task-form {
+  background-color: #998ceb;
+  border-radius: 60px;
+  border: 8px solid #7d73c0;
+  padding: 2rem;
+  margin: 5rem;
+}
+
+.task-form-description {
+  color: #fafafa;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 2rem;
+}
+
+.AddTaskForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addTask-input {
+  margin-top: 0.5rem;
+  color: rgb(33, 37, 41);
+  font-weight: 600;
+  font-family: sans-serif;
+  border-radius: 20px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.addTask-btn {
+  background: #70d6ff;
+  color: #fafafa;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 2rem ;
+  margin-top: 1rem;
+  cursor: pointer;
+  /* box-shadow: 0px 5px 10px 0px #7db1c6; */
+}
+
+/* Back to menu buttons on Discover Chores Page */
+.menu-chores {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 7rem;
+}
+  
+/* Hover over Task */
+.task:hover {
+  background-color: #70d6ff; 
+  color: #fafafa;
+  box-shadow: 0px 5px 10px 0px #b2d1d7;
+  border-radius: 20px;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+}
+.AddTaskForm {
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Rewards Page */
+
+.rewards-list {
+  display: flex;
+  background-color: #fff3c2;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-bottom: 15rem;
+}
+
+.menu-rewards {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 6rem;
+}
+
+.rewards .points-earned {
+    font-size: 20px;
+    color: #febd3a;
+}
+
+
+.reward-title {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.7rem;
+}
+
+.reward {
+  background-color: #fafafa; 
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 5px 10px 0px #d7b268;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.rewards h3 {
+  font-size: 1.5rem;
+  font-family: "Paytone One";
+}
+
+.redeem-button {
+  background: #a1e660;
+  font-size: 1.2rem;
+  color: #fafafa;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem ;
+  margin-top: 1rem;
+  cursor: pointer;
+  /* box-shadow: 0px 5px 10px 0px #7db1c6; */
 }
