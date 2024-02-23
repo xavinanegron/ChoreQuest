@@ -1,4 +1,4 @@
-# App is under constrcution... 🛠️👷‍♀️
+# App is under construction... 🛠️👷‍♀️
 
 # Getting Started with Create React App
 
