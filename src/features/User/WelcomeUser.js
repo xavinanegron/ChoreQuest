@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+
 const WelcomeUser = () => {
   const [name, setName] = useState('');
   const [inputName, setInputName] = useState('');
@@ -26,7 +27,7 @@ const WelcomeUser = () => {
   return (
     <div>
       {name ? (
-        <h1 className='welcome-message'> Hi, {name} ! 👋</h1>
+        <h1 className='welcome-message'>Welcome, {name} 👋</h1>
       ) : (
         <form onSubmit={handleSubmit}>
           <label className='name-label'>

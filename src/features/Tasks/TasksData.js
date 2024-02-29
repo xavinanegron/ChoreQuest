@@ -40,7 +40,7 @@ const tasksData = [
         emoji: '🌱',
         id: 6,
         name: 'Water the plants',
-        description: 'Use a watering can to water indoor or outdoor plants.',
+        description: 'Water indoor or outdoor plants.',
         points: 10,
     },
     {
@@ -89,7 +89,7 @@ const tasksData = [
         emoji: '🌿',
         id: 13,
         name: 'Help with yard work',
-        description: 'Assist in yard work tasks such as raking leaves, pulling weeds or planting flowers in the garden',
+        description: 'Assist in yard work tasks such as raking leaves, pulling weeds or planting flowers in the garden.',
         points: 15,
     },
     {

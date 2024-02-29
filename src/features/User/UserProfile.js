@@ -8,7 +8,8 @@ function UserProfile() {
     <button 
           type='submit' 
           className='my-profile-btn'>
-            My Profile <FontAwesomeIcon icon={faUser} size='lg' />
+            My Current Stats <FontAwesomeIcon icon={faUser} size='lg' />
+            
     </button>
   )
 }

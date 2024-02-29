@@ -29,7 +29,7 @@ const AddTaskForm = ({ addTask }) => {
   return (
     
     <form className='AddTaskForm' onSubmit={handleSubmit}>
-      <h2 className='task-form-description'>Want more? <br/> Create your own chore <br/> to earn more points!</h2>
+      <h2 className='task-form-description'>Craft Your Adventure! <br/>Add your own chore and set a point value.</h2>
       <input 
         type='text' 
         className='addTask-input'

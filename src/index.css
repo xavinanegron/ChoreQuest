@@ -9,27 +9,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
  
 .app-name {
-  padding: 3rem;
-  background-color: #a1e660;
-  border-radius: 20%;
+  padding: 14rem;
+  text-align: center;
+  /* border-radius: 30%; */
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   color: #fafafa;
+  background-color: #70d6ff;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .app-name-title {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   letter-spacing: 3px;
-  padding-bottom: 5px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  display: inline-block;
+  text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
 }
+
 .header h2 {
   font-size: 2rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -40,8 +41,6 @@ h1, h2 {
 }
 .chore-title h2 { 
   font-weight: bolder;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .welcome-message {
@@ -72,28 +71,22 @@ h1, h2 {
   color: #fafafa;
   border: none;
   border-radius: 20px;
-  padding: 0.5rem 2rem ;
+  padding: 0.5rem 2rem;
   cursor: pointer;
   box-shadow: 0px 5px 10px 0px #7db1c6;
 }
 
-.buttons-container {
-  align-items: center;
-}
-
 .menu-buttons {
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   display: flex;
-  padding-top: 5rem;
-  padding-left: 10rem;
-  padding-right: 10rem; 
+  padding: 3rem;
+  background-color: #70d6ff;
 }
 
 .cutesies {
   width: 100%;
-  height: auto;
-  margin: 0 auto;
+  color: #70d6ff;
+  margin: 5rem;
 }
 
 /* Sub Header Button Styling */
@@ -103,16 +96,16 @@ h1, h2 {
   font-weight: 600;
   color: #fafafa;
   border: none;
-  border-radius: 30px;
+  border-radius: 15px;
   padding: 1.5rem;
+  margin-right: 1.5rem;
   cursor: pointer;
-  box-shadow: 0px 5px 10px 0px #c1baed;
+  /* box-shadow: 0px 5px 10px 0px #c1baed; */
 }
 
 .explore-task-btn:hover {
   background: #a3b8ff;
 }
-
 
 .view-rewards-btn {
   background: #febd3a;
@@ -120,10 +113,11 @@ h1, h2 {
   font-weight: 600;
   color: #fafafa;
   border: none;
-  border-radius: 30px;
+  border-radius: 15px;
   padding: 1.5rem;
+  margin-right: 1.5rem;
   cursor: pointer;
-  box-shadow: 0px 5px 10px 0px #e0cba8;
+  /* box-shadow: 0px 5px 10px 0px #e0cba8; */
 }
 
 .view-rewards-btn:hover {
@@ -136,10 +130,10 @@ h1, h2 {
   font-weight: 600;
   color: #fafafa;
   border: none;
-  border-radius: 30px;
+  border-radius: 15px;
   padding: 1.5rem;
   cursor: pointer;
-  box-shadow: 0px 5px 10px 0px #fab6bc;
+  /* box-shadow: 0px 5px 10px 0px #fab6bc; */
 }
 
 .my-profile-btn:hover {
@@ -151,56 +145,87 @@ h1, h2 {
 /* Task List Styling */
 
 .chore-title {
-  padding: 1rem;
-  font-size: 2.7rem;
+  padding-top: 2rem;
+  font-size: 3.5rem;
+  color: #fafafa;
+  text-shadow: 5px 8px 2px rgba(24, 10, 32, 0.2);
+  text-align: center;
+}
+
+.chore-title-question {
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding-bottom: 2rem;
+  color: #fafafa;
+  text-align: center;
 }
 
 .task-list {
   display: flex;
-  background-color: #dbf5fb;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  background-color: #50c8;
+  padding: 5rem 10rem;
+  /* border-radius: 10rem; */
+  margin-top: 2rem;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 
+           8px -8px rgba(0, 0, 0, 0.1);
+           
 }
 
 .task-description {
-  font-size: 15px;
+  font-size: 17px;
+  color: #575661;
+  text-align: start;
 }
 
 .tasks h3 {
-  font-size: 1.5rem;
+  font-size: 25px;
   font-family: "Paytone One";
+  text-align: start;
+  color: #575661;
 }
 
 .tasks .points-earned {
-  font-size: 20px;
-  color: #febd3a;
+  font-size: 22px;
+  color: #ffd700;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.task-checkbox {
+  cursor: pointer;
 }
 
 .task {
   background-color: #fafafa; 
-  border-radius: 20px;
+  border-radius: 30px;
   width: 100%;
-  box-shadow: 0px 5px 10px 0px #b2d1d7;
+  box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
   padding: 1rem;
   margin: 1rem; 
 }
 
+/* Hover over Task */
+.task:hover {
+  background-color: #ffffac; 
+  border-radius: 30px;
+  width: 100%;
+  box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+
 /* Add Task Form Styling */
 .task-form {
-  background-color: #998ceb;
-  border-radius: 60px;
-  border: 8px solid #7d73c0;
-  padding: 2rem;
-  margin: 5rem;
+  margin: 3rem 5rem;
 }
 
 .task-form-description {
   color: #fafafa;
   text-align: center;
   padding-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
 }
 
 .AddTaskForm {
@@ -213,79 +238,68 @@ h1, h2 {
   color: rgb(33, 37, 41);
   font-weight: 600;
   font-family: sans-serif;
-  border-radius: 20px;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 .addTask-btn {
+  box-shadow: 0px 5px 10px 0px rgba(47, 20, 63, 0.2);
   background: #70d6ff;
-  color: #fafafa;
   font-size: 1.2rem;
-  border: none;
-  border-radius: 20px;
-  padding: 0.5rem 2rem ;
-  margin-top: 1rem;
-  cursor: pointer;
-  /* box-shadow: 0px 5px 10px 0px #7db1c6; */
-}
-
-/* Back to menu buttons on Discover Chores Page */
-.menu-chores {
-  align-items: center;
-  justify-content: space-evenly;
-  display: flex;
-  padding: 7rem;
-}
-  
-/* Hover over Task */
-.task:hover {
-  background-color: #70d6ff; 
+  font-weight: 600;
   color: #fafafa;
-  box-shadow: 0px 5px 10px 0px #b2d1d7;
-  border-radius: 20px;
-  width: 100%;
-  padding: 1rem;
-  margin: 1rem;
-}
-.AddTaskForm {
-  justify-content: center;
-  flex-direction: column;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem 4rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
 }
 
 /* Rewards Page */
 
-.rewards-list {
-  display: flex;
-  background-color: #fff3c2;
-  padding-left: 15rem;
-  padding-right: 15rem;
-  padding-bottom: 15rem;
+.reward-title {
+  padding-top: 2rem;
+  font-size: 3.5rem;
+  color: #fafafa;
+  text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+  text-align: center;
 }
 
-.menu-rewards {
-  align-items: center;
-  justify-content: space-evenly;
+.reward-title-statement {
+  font-size: 1.8rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding-bottom: 2rem;
+  color: #fafafa;
+  text-align: center;
+}
+
+.rewards-list {
   display: flex;
-  padding: 6rem;
+  background-color: #fc606e;
+  padding: 3rem 15rem;
+  margin-top: 2rem;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 
+  8px -8px rgba(0, 0, 0, 0.1);
+}
+
+.rewards h3 {
+  font-size: 25px;
+  font-family: "Paytone One";
+  text-align: center;
+  color: #575661;
 }
 
 .rewards .points-earned {
-    font-size: 20px;
-    color: #febd3a;
-}
-
-
-.reward-title {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  font-size: 2.7rem;
+  font-size: 22px;
+  color: #70d6ff;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .reward {
   background-color: #fafafa; 
-  border-radius: 20px;
+  border-radius: 15px;
   width: 100%;
-  box-shadow: 0px 5px 10px 0px #d7b268;
+  box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
   padding: 1rem;
   margin: 1rem;
   display: flex;
@@ -293,19 +307,53 @@ h1, h2 {
   text-align: center;
 }
 
-.rewards h3 {
-  font-size: 1.5rem;
-  font-family: "Paytone One";
+.reward:hover {
+  background-color: #fafafa; 
+  border-radius: 15px;
+  width: 100%;
+  box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+  background-color: #e0f3fb;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .redeem-button {
   background: #a1e660;
   font-size: 1.2rem;
+  font-weight: 600;
   color: #fafafa;
   border: none;
-  border-radius: 20px;
-  padding: 0.5rem ;
+  border-radius: 15px;
+  padding: 1rem;
   margin-top: 1rem;
   cursor: pointer;
   /* box-shadow: 0px 5px 10px 0px #7db1c6; */
+}
+
+
+/* My Stats */
+
+.user-stat-container {
+  display: flex;
+  background-color: #febd3a;
+  padding: 3rem 15rem;
+  justify-content: center;
+  /* border-radius: 10rem; */
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 
+           8px -8px rgba(0, 0, 0, 0.1);
+}
+
+.user-header {
+
+}
+
+.stats-title {
+  padding: 2rem;
+  font-size: 3.5rem;
+  color: #fafafa;
+  text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+  text-align: center;
 }
