@@ -11,29 +11,39 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
- 
+
 .app-name {
-  padding: 14rem;
   text-align: center;
-  /* border-radius: 30%; */
+  /* border-radius: 30%;
   border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  border-top-right-radius: 0px; */
   color: #fafafa;
-  background-color: #70d6ff;
-  text-align: center;
+  background-color: #26c1fc;
+  /* padding-left: 12rem; */
+  padding-top: 5rem; 
+  padding-bottom: 18rem;
   box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .app-name-title {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+  font-family: "Paytone One";
+}
+.app-name-title-2 {
   font-size: 5rem;
   font-weight: 600;
   letter-spacing: 3px;
   text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+  text-transform: uppercase;
 }
 
 .header h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  color: #fafafa;
 }
 
 h1, h2 {
@@ -44,8 +54,10 @@ h1, h2 {
 }
 
 .welcome-message {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-transform: capitalize;
+  color: #fafafa;
 }
 
 .name-label {
@@ -53,7 +65,7 @@ h1, h2 {
   font-size: 1.2rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   padding-bottom: 0.5rem;
-  color: rgb(33, 37, 41);
+  color: #fafafa;
 }
 
 .name-input-box {
@@ -64,10 +76,11 @@ h1, h2 {
   border-radius: 20px;
   padding-left: 1rem;
   padding-right: 1rem;
+  border: none;
 }
 
 .welcome-button {
-  background: #70d6ff;
+  background: rgb(165, 226, 73);
   color: #fafafa;
   border: none;
   border-radius: 20px;
@@ -77,16 +90,16 @@ h1, h2 {
 }
 
 .menu-buttons {
-  justify-content: center;
+  justify-content: end;
   display: flex;
-  padding: 3rem;
-  background-color: #70d6ff;
+  padding: 3.5rem;
+  /* background-color: #bada55; */
+  background-color: #26c1fc;
 }
 
 .cutesies {
   width: 100%;
   color: #70d6ff;
-  margin: 5rem;
 }
 
 /* Sub Header Button Styling */
@@ -141,76 +154,150 @@ h1, h2 {
 }
 /* End Sub Header Button Styling*/
 
+/* About */
+.about-container {
+  /* padding: 4rem 13rem; */
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  background-color: white;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.1),
+      8px -8px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.about-container h2 {
+  color: #26c1fc;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+}
+.about-info-container {
+  padding-top: 4rem;
+}
+
+.about-info {
+  font-family: "Paytone One";
+  font-size: 18px;
+  color: #575661;
+  text-align: start;
+  font-weight: 100;
+  padding-right: 8rem;
+  font-family: 'Arial';
+}
+
+.about-image img{
+  max-width: 100%;
+  height: 450px;
+  padding-left: 8rem;
+
+}
 
 /* Task List Styling */
 
 .chore-title {
   padding-top: 2rem;
   font-size: 3.5rem;
+  /* font-weight: 600; */
   color: #fafafa;
-  text-shadow: 5px 8px 2px rgba(24, 10, 32, 0.2);
-  text-align: center;
+  text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+  text-align: start;
 }
 
 .chore-title-question {
   font-size: 1.8rem;
+  /* font-weight: 600; */
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
+  /* color: #575661; */
   color: #fafafa;
-  text-align: center;
+  text-align: start;
 }
 
 .task-list {
-  display: flex;
-  background-color: #50c8;
-  padding: 5rem 10rem;
+  /* background-color: rgb(244, 232, 213); */
+  background-color: #8dd54f;
+  padding: 4rem 15rem;
   /* border-radius: 10rem; */
-  margin-top: 2rem;
   box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 
            8px -8px rgba(0, 0, 0, 0.1);
-           
+}
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.task-description {
-  font-size: 17px;
-  color: #575661;
-  text-align: start;
+span.emoji {
+  font-size: 4rem;
+  text-align: center;
 }
 
 .tasks h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-family: "Paytone One";
-  text-align: start;
+  text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.2);
   color: #575661;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.task-description {
+  font-size: 16px;
+  color: #575661;
+  text-align: center;
 }
 
 .tasks .points-earned {
-  font-size: 22px;
-  color: #ffd700;
-  text-align: start;
-  text-transform: uppercase;
+  font-size: 20px;
+  color: #75ba66;
 }
 
-.task-checkbox {
-  cursor: pointer;
-}
+.task-completed-button {
+    background: #26c1fc;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fafafa;
+    border: none;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    align-content: center;
+    /* box-shadow: 0px 5px 10px 0px #7db1c6; */
+  }
+
+    .task-completed-button:hover {
+      background: #fafafa;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #26c1fc;
+      border: 5px dotted #26c1fc;
+      border-radius: 20px;
+      padding: 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      align-content: center;
+      /* box-shadow: 0px 5px 10px 0px #7db1c6; */
+    }
 
 .task {
-  background-color: #fafafa; 
-  border-radius: 30px;
+  background-color: #fafafa;
+  border-radius: 10px;
   width: 100%;
   box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 1rem; 
 }
 
 /* Hover over Task */
 .task:hover {
-  background-color: #ffffac; 
-  border-radius: 30px;
+  /* background-color: #70d6ff;  */
+  border-radius: 10px;
   width: 100%;
   box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 1rem;
 }
 
@@ -224,7 +311,7 @@ h1, h2 {
   color: #fafafa;
   text-align: center;
   padding-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
 }
 
@@ -240,10 +327,12 @@ h1, h2 {
   font-family: sans-serif;
   padding-left: 1rem;
   padding-right: 1rem;
+  border-radius: 15px;
+  border: none;
 }
 .addTask-btn {
   box-shadow: 0px 5px 10px 0px rgba(47, 20, 63, 0.2);
-  background: #70d6ff;
+  background: #fc606e;
   font-size: 1.2rem;
   font-weight: 600;
   color: #fafafa;
@@ -253,6 +342,9 @@ h1, h2 {
   margin-top: 1.5rem;
   cursor: pointer;
 }
+.addTask-btn:hover {
+  background: #f76d7e;
+}
 
 /* Rewards Page */
 
@@ -261,59 +353,56 @@ h1, h2 {
   font-size: 3.5rem;
   color: #fafafa;
   text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
-  text-align: center;
+  text-align: start;
 }
 
 .reward-title-statement {
   font-size: 1.8rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   color: #fafafa;
-  text-align: center;
+  text-align: start;
 }
 
 .rewards-list {
   display: flex;
-  background-color: #fc606e;
-  padding: 3rem 15rem;
-  margin-top: 2rem;
+  background-color: #f9bd31;
+  padding: 4rem 15rem;
+  margin-top: 3rem;
   box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 
   8px -8px rgba(0, 0, 0, 0.1);
 }
 
 .rewards h3 {
-  font-size: 25px;
+  font-size: 22px;
   font-family: "Paytone One";
   text-align: center;
   color: #575661;
 }
 
 .rewards .points-earned {
-  font-size: 22px;
-  color: #70d6ff;
+  font-size: 20px;
+  color: #eab438;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .reward {
   background-color: #fafafa; 
-  border-radius: 15px;
+  border-radius: 10px;
   width: 100%;
   box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 1rem;
-  display: flex;
-  flex-direction: column;
   text-align: center;
 }
 
 .reward:hover {
   background-color: #fafafa; 
-  border-radius: 15px;
+  border-radius: 10px;
   width: 100%;
   box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
-  background-color: #e0f3fb;
-  padding: 1rem;
+  /* background-color: #e0f3fb; */
+  padding: 1.5rem;
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -321,24 +410,38 @@ h1, h2 {
 }
 
 .redeem-button {
-  background: #a1e660;
+  background: rgb(165, 226, 73);
   font-size: 1.2rem;
   font-weight: 600;
   color: #fafafa;
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 1rem;
   margin-top: 1rem;
   cursor: pointer;
+  align-content: center;
   /* box-shadow: 0px 5px 10px 0px #7db1c6; */
 }
 
+.redeem-button:hover {
+  background: #fafafa;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(165, 226, 73);
+  border: 5px dotted rgb(165, 226, 73);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  align-content: center;
+  /* box-shadow: 0px 5px 10px 0px #7db1c6; */
+}
 
 /* My Stats */
 
 .user-stat-container {
   display: flex;
-  background-color: #febd3a;
+  background-color: #fc606e;
   padding: 3rem 15rem;
   justify-content: center;
   /* border-radius: 10rem; */
@@ -346,9 +449,6 @@ h1, h2 {
            8px -8px rgba(0, 0, 0, 0.1);
 }
 
-.user-header {
-
-}
 
 .stats-title {
   padding: 2rem;

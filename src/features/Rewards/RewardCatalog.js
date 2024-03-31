@@ -12,9 +12,10 @@ function RewardCatalog() {
                     {rewardsData.map(reward => (
                         <div key={reward.id} className="col-lg-4">
                             <div className="reward">
-                                <h3 className="task-name">{reward.name} {reward.emoji}</h3>
-                                <h2 className="points-earned">Points required: {reward.points}</h2>
-                                <button className="redeem-button"> Redeem Reward</button>
+                                <span className="emoji">{reward.emoji}</span>
+                                <h3 className="task-name">{reward.name}</h3>
+                                {/* <h2 className="points-earned">{reward.points} points to redeem</h2> */}
+                                <button className="redeem-button col-lg-12"> Redeem for {reward.points} points</button>
                             </div>
                         </div>
                     ))}

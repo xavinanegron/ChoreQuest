@@ -27,7 +27,7 @@ const WelcomeUser = () => {
   return (
     <div>
       {name ? (
-        <h1 className='welcome-message'>Welcome, {name} 👋</h1>
+        <h1 className='welcome-message'>Hi, {name} 👋</h1>
       ) : (
         <form onSubmit={handleSubmit}>
           <label className='name-label'>

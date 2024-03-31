@@ -3,11 +3,13 @@ import RewardCatalog from "./features/Rewards/RewardCatalog";
 import Header from "./features/Header/Header";
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import React from 'react'
 import Lottie from 'react-lottie';
 import cutesies from './Cutesies.json';
 import UserStats from "./features/User/UserStats";
+import SubHeader from "./features/Header/SubHeader";
+import AboutChoreQuest from "./features/About/AboutChoreQuest";
+
 
 function App() {
   const defaultOptions = {
@@ -18,12 +20,19 @@ function App() {
 
   return (
       <div className="App">
+        <SubHeader />
         <Header />
+        <AboutChoreQuest />
+        {/* <Lottie 
+          className="cutesies" 
+          options={defaultOptions}  
+          height={250}
+        /> */}
         <TaskList />
         <Lottie 
           className="cutesies" 
           options={defaultOptions}  
-          height={300}
+          height={250}
         />
         <RewardCatalog />
         <UserStats />

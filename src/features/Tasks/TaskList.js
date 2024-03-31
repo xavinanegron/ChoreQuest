@@ -17,14 +17,18 @@ function TaskList() {
                 <h2 className="chore-title-question col-lg-12">Set Sail on Your Chore Quest! Which missions will you conquer?</h2>
                 <div className="row">
                     {tasks.map(task => (
-                        <div key={task.id} className="col-lg-6">
-                            <div className="task d-flex justify-content-between align-items-center">
-                                <div>
-                                    <h3 className="task-name">{task.name} {task.emoji}</h3>
+                        <div key={task.id} className="col-lg-4">
+                            <div className="task">
+                                {/* <div className="">
+                                    <span className="emoji">{task.emoji}</span>
+                                </div> */}
+                                <div className="task-container">
+                                    <span className="emoji">{task.emoji}</span>
+                                    <h3 className="task-name">{task.name}</h3>
                                     <h4 className="task-description">{task.description}</h4>
-                                    <h2 className="points-earned">Get {task.points} points!</h2>
+                                    {/* <h2 className="points-earned">Get {task.points} points</h2> */}
+                                    <button className="task-completed-button col-lg-12">Get {task.points} points</button>
                                 </div>
-                                <input type="checkbox" className="task-checkbox"/>
                             </div>
                         </div>
                     ))}
