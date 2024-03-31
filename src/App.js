@@ -20,8 +20,8 @@ function App() {
 
   return (
       <div className="App">
-        <SubHeader />
         <Header />
+        <SubHeader />
         <AboutChoreQuest />
         {/* <Lottie 
           className="cutesies" 
@@ -32,7 +32,7 @@ function App() {
         <Lottie 
           className="cutesies" 
           options={defaultOptions}  
-          height={250}
+          height={300}
         />
         <RewardCatalog />
         <UserStats />

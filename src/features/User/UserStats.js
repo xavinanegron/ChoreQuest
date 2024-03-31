@@ -7,7 +7,7 @@ function UserStats() {
   return (
     <div className='user-stat-container'>
       <div className='user-header row'>
-        <h2 className='stats-title col-lg-12'>My Stats 🌟</h2>
+        <h2 className='stats-title col-lg-12'>My Stats 🎉</h2>
 
         <div className='col-lg-4'>
           <h3>125</h3>

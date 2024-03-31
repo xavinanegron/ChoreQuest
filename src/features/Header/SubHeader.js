@@ -10,6 +10,6 @@ const SubHeader = () => {
            <UserProfile />
         </div>
     );
-}
+};
 
 export default SubHeader;
