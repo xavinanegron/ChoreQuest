@@ -1,5 +1,6 @@
 # App is under construction... 🛠️👷‍♀️
 ## ![chorequest1](https://github.com/xavinanegron/ChoreQuest/assets/146385936/2c39c95d-e93d-4309-ad0f-262c7d651ad5)
+![chorequest2](https://github.com/xavinanegron/ChoreQuest/assets/146385936/621a9bcb-26f5-47a8-b730-e9300ae6600d)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
