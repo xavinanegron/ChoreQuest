@@ -1,7 +1,5 @@
 # App is under construction... 🛠️👷‍♀️
-## ![Untitled 3](https://github.com/xavinanegron/ChoreQuest/assets/146385936/bfc72ef7-c1d9-4a07-b206-355091dd993e)
-![Untitled](https://github.com/xavinanegron/ChoreQuest/assets/146385936/e3e72c14-e5ce-494a-b66c-596e34de61c2)
-![Untitled 2](https://github.com/xavinanegron/ChoreQuest/assets/146385936/8c25f12e-082c-4339-b0fd-178e6a0c929b)
+##
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
