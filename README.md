@@ -1,5 +1,6 @@
 # App is under construction... 🛠️👷‍♀️
-## ![ChoreQuest-Chore-Tracker-for-Kids](https://github.com/xavinanegron/TheMetMixer/assets/146385936/14395c87-14a6-4ce7-aae8-c4b4c2bc18fb)# Getting Started with Create React App
+## ![ChoreQuest-Chore-Tracker-for-Kids](https://github.com/xavinanegron/ChoreQuest/assets/146385936/5a097ac2-ec87-4df9-9b55-4be1c5b5cb18)
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
