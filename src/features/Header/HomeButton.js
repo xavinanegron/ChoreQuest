@@ -1,22 +1,22 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-function UserProfile() {
+function HomeButton() {
 	return (
 		<Link
 			type='submit'
-			className='my-profile-btn'
-			to='/stats'
+			className='home-btn'
+			to='/'
 		>
-			My Current Stats{' '}
+			Home{' '}
 			<FontAwesomeIcon
-				icon={faUser}
+				icon={faHouse}
 				size='md'
 			/>
 		</Link>
 	);
 }
 
-export default UserProfile;
+export default HomeButton;

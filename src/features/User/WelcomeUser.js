@@ -1,44 +1,54 @@
 import React, { useState, useEffect } from 'react';
 
-
 const WelcomeUser = () => {
-  const [name, setName] = useState('');
-  const [inputName, setInputName] = useState('');
+	const [name, setName] = useState('');
+	const [inputName, setInputName] = useState('');
 
-  useEffect(() => {
-    const storedName = localStorage.getItem('userName');
-    if (storedName) {
-      setName(storedName);
-    }
-  }, []);
+	useEffect(() => {
+		const storedName = localStorage.getItem('userName');
+		if (storedName) {
+			setName(storedName);
+		}
+	}, []);
 
-  const handleNameChange = (e) => {
-    setInputName(e.target.value);
-  };
+	const handleNameChange = (e) => {
+		setInputName(e.target.value);
+	};
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (inputName.trim() !== '') {
-      setName(inputName);
-      localStorage.setItem('userName', inputName);
-    }
-  };
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		if (inputName.trim() !== '') {
+			setName(inputName);
+			localStorage.setItem('userName', inputName);
+		}
+	};
 
-  return (
-    <div>
-      {name ? (
-        <h1 className='welcome-message'>Hi, {name} 👋</h1>
-      ) : (
-        <form onSubmit={handleSubmit}>
-          <label className='name-label'>
-            Enter your name below: <br></br>
-            <input className='name-input-box' type="text" value={inputName} onChange={handleNameChange} />
-          </label> <br></br>
-          <button type="submit" className='welcome-button'>Submit</button>
-        </form>
-      )}
-    </div>
-  );
+	return (
+		<div>
+			{name ? (
+				<h1 className='welcome-message'>Hi, {name} 👋</h1>
+			) : (
+				<form onSubmit={handleSubmit}>
+					<label className='name-label'>
+						Enter your name below: <br></br>
+						<input
+							className='name-input-box'
+							type='text'
+							value={inputName}
+							onChange={handleNameChange}
+						/>
+					</label>{' '}
+					<br></br>
+					<button
+						type='submit'
+						className='welcome-button'
+					>
+						Submit
+					</button>
+				</form>
+			)}
+		</div>
+	);
 };
 
 export default WelcomeUser;
