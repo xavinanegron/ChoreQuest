@@ -182,8 +182,8 @@ h2 {
 /* About */
 .about-container {
 	/* padding: 4rem 13rem; */
-	padding-top: 5rem;
-	padding-bottom: 8rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 	padding-right: 10rem;
 	padding-left: 10rem;
 	background-color: white;
@@ -246,6 +246,7 @@ h2 {
 	/* background-color: rgb(244, 232, 213); */
 	background-color: #8bc34a;
 	padding: 4rem 17rem;
+	padding-bottom: 11rem;
 	/* border-radius: 10rem; */
 	box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1);
 }
@@ -377,7 +378,7 @@ span.emoji {
 	cursor: pointer;
 }
 .addTask-btn:hover {
-	background: #a3b8ff;
+	background: #f76d7e;
 }
 
 /* Rewards Page */
@@ -403,6 +404,7 @@ span.emoji {
 	/* background-color: #f1bc41; */
 	background-color: #998ceb;
 	padding: 4rem 17rem;
+	padding-bottom: 13rem;
 	margin-top: 3rem;
 	box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1);
 }
@@ -476,7 +478,8 @@ span.emoji {
 .user-stat-container {
 	display: flex;
 	background-color: #fc606e;
-	padding: 3rem 16rem;
+	padding: 3rem 17rem;
+	padding-bottom: 15rem;
 	justify-content: center;
 	/* border-radius: 10rem; */
 	box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1);

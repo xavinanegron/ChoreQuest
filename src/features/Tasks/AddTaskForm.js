@@ -85,7 +85,7 @@ const AddTaskForm = ({ addTask }) => {
 					hidden
 					className='addTask-input'
 				>
-					Emoji
+					select Emoji
 				</option>
 				<option value='📚'>📚</option>
 				<option value='🧹'>🧹</option>
