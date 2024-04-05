@@ -10,11 +10,11 @@ function ExploreTaskButton() {
 			className='explore-task-btn'
 			to='/tasks'
 		>
-			Discover Chores{' '}
 			<FontAwesomeIcon
 				icon={faSearch}
-				size='md'
-			/>
+				size='sm'
+			/>{' '}
+			Chores{' '}
 		</Link>
 	);
 }

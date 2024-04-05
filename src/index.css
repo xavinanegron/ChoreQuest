@@ -14,12 +14,8 @@ body {
 
 .app-name {
 	text-align: center;
-	/* border-radius: 30%;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px; */
 	color: #fafafa;
 	background-color: #26c1fc;
-	/* padding-left: 12rem; */
 	padding-top: 13rem;
 	padding-bottom: rem;
 	box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
@@ -54,6 +50,11 @@ h2 {
 	font-weight: bolder;
 }
 
+.treasure-map img {
+	width: 50px;
+	height: auto;
+}
+
 .welcome-message {
 	font-size: 1.8rem;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -81,14 +82,14 @@ h2 {
 }
 
 .welcome-button {
-	background: rgb(165, 226, 73);
+	background: #998ceb;
 	color: #fafafa;
 	font-weight: 600;
 	border: none;
 	border-radius: 15px;
 	padding: 0.5rem 2rem;
 	cursor: pointer;
-	box-shadow: 0px 5px 10px 0px #7db1c6;
+	box-shadow: 0px 5px 10px 0px #544d81;
 }
 
 .menu-buttons {
@@ -107,7 +108,7 @@ h2 {
 
 /* Sub Header Button Styling */
 .explore-task-btn {
-	background: #998ceb;
+	background: #8dca47;
 	font-size: 1.4rem;
 	font-weight: 600;
 	color: #fafafa;
@@ -121,7 +122,8 @@ h2 {
 }
 
 .explore-task-btn:hover {
-	background: #a3b8ff;
+	/* background: #a3b8ff; */
+	background: #9bc967;
 }
 
 .view-rewards-btn {
@@ -177,6 +179,24 @@ h2 {
 .home-btn:hover {
 	background: #7bd4f7;
 }
+
+.MenuTaskList {
+	background-color: #8dca47;
+	padding-top: 4rem;
+	padding-right: 4rem;
+}
+
+.MenuRewardList {
+	background-color: #998ceb;
+	padding-top: 4rem;
+	padding-right: 4rem;
+}
+.MenuStats {
+	background-color: #fc606e;
+	padding-top: 4rem;
+	padding-right: 4rem;
+}
+
 /* End Sub Header Button Styling*/
 
 /* About */
@@ -224,7 +244,6 @@ h2 {
 /* Task List Styling */
 
 .chore-title {
-	padding-top: 2rem;
 	font-size: 3.5rem;
 	/* font-weight: 600; */
 	color: #fafafa;
@@ -244,11 +263,11 @@ h2 {
 
 .task-list {
 	/* background-color: rgb(244, 232, 213); */
-	background-color: #8bc34a;
-	padding: 4rem 17rem;
-	padding-bottom: 11rem;
+	background-color: #8dca47;
+	padding: 4rem 15rem;
+
 	/* border-radius: 10rem; */
-	box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1);
+	/* box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1); */
 }
 .task-container {
 	display: flex;
@@ -330,11 +349,11 @@ span.emoji {
 }
 
 /* Add Task Form Styling */
-.task-form {
+.form {
 	margin: 3rem 5rem;
 }
 
-.task-form-description {
+.form-description {
 	color: #fafafa;
 	text-align: center;
 	padding-bottom: 1rem;
@@ -342,12 +361,12 @@ span.emoji {
 	text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
 }
 
-.AddTaskForm {
+.AddTaskChoreForm {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.addTask-input {
+.add-input {
 	font-size: 20px;
 	margin-top: 0.5rem;
 	color: #575661;
@@ -360,12 +379,11 @@ span.emoji {
 	text-transform: capitalize;
 }
 
-/* CSS */
-.addTask-input::placeholder {
+.add-input::placeholder {
 	color: #575661;
 }
 
-.addTask-btn {
+.add-btn {
 	/* box-shadow: 0px 5px 10px 0px rgba(47, 20, 63, 0.2); */
 	background: #fc606e;
 	font-size: 1.2rem;
@@ -377,7 +395,7 @@ span.emoji {
 	margin-top: 1.5rem;
 	cursor: pointer;
 }
-.addTask-btn:hover {
+.add-btn:hover {
 	background: #f76d7e;
 }
 
@@ -403,10 +421,8 @@ span.emoji {
 	display: flex;
 	/* background-color: #f1bc41; */
 	background-color: #998ceb;
-	padding: 4rem 17rem;
-	padding-bottom: 13rem;
-	margin-top: 3rem;
-	box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1);
+	padding: 4rem 15rem;
+	/* box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1); */
 }
 
 .rewards h3 {
@@ -478,11 +494,9 @@ span.emoji {
 .user-stat-container {
 	display: flex;
 	background-color: #fc606e;
-	padding: 3rem 17rem;
-	padding-bottom: 15rem;
-	justify-content: center;
+	padding: 4rem 15rem;
 	/* border-radius: 10rem; */
-	box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1);
+	/* box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1); */
 }
 
 .stats-title {

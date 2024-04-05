@@ -10,11 +10,11 @@ function ViewRewardsButton() {
 			className='view-rewards-btn'
 			to='/rewards'
 		>
-			Explore Rewards{' '}
 			<FontAwesomeIcon
 				icon={faTrophy}
-				size='md'
-			/>
+				size='sm'
+			/>{' '}
+			Rewards{' '}
 		</Link>
 	);
 }

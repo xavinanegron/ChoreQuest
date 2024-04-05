@@ -10,13 +10,14 @@ function UserProfile() {
 			className='my-profile-btn'
 			to='/stats'
 		>
-			My Current Stats{' '}
 			<FontAwesomeIcon
 				icon={faUser}
-				size='md'
-			/>
+				size='sm'
+			/>{' '}
+			My Stats{' '}
 		</Link>
 	);
 }
 
 export default UserProfile;
+

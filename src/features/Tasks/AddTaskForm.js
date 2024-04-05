@@ -10,15 +10,15 @@ const AddTaskForm = ({ addTask }) => {
 		e.preventDefault();
 
 		// Checks if any fields are empty
-		if (taskName.trim() === '' || points.trim() === '') {
+		if (taskName.trim() === '' || points.trim() === '' || emoji.trim() === '') {
 			alert('Please fill out all fields.');
 			return;
 		}
 
-		if (isNaN(points) || points < 5) {
-			alert('Point value must be greater than 5.');
-			return;
-		}
+		// if (isNaN(points) || points < 5) {
+		// 	alert('Point value must be greater than 5.');
+		// 	return;
+		// }
 
 		//Call addTask Function with new chore data
 		addTask({
@@ -37,30 +37,30 @@ const AddTaskForm = ({ addTask }) => {
 
 	return (
 		<form
-			className='AddTaskForm'
+			className='AddTaskChoreForm'
 			onSubmit={handleSubmit}
 		>
-			<h2 className='task-form-description'>
+			<h2 className='form-description'>
 				Create Your Adventures! <br />
 				Add your own chore, <br />
-				set a point value and select your emoji.
+				set a point value and pick your emoji.
 			</h2>
 			<input
 				type='text'
-				className='addTask-input'
+				className='add-input'
 				placeholder='Chore'
 				value={taskName}
 				onChange={(e) => setTaskName(e.target.value)}
 			/>
 			<input
 				type='text'
-				className='addTask-input'
+				className='add-input'
 				placeholder='Chore Description'
 				value={choreDescription}
 				onChange={(e) => setChoreDescription(e.target.value)}
 			/>
 			<select
-				className='addTask-input'
+				className='add-input'
 				value={points}
 				onChange={(e) => setPoints(e.target.value)}
 			>
@@ -74,7 +74,7 @@ const AddTaskForm = ({ addTask }) => {
 			</select>
 
 			<select
-				className='addTask-input'
+				className='add-input'
 				style={{}}
 				value={emoji}
 				onChange={(e) => setEmoji(e.target.value)}
@@ -83,9 +83,9 @@ const AddTaskForm = ({ addTask }) => {
 					value=''
 					disabled
 					hidden
-					className='addTask-input'
+					className='add-input'
 				>
-					select Emoji
+					Pick emoji
 				</option>
 				<option value='📚'>📚</option>
 				<option value='🧹'>🧹</option>
@@ -103,7 +103,7 @@ const AddTaskForm = ({ addTask }) => {
 			</select>
 			<button
 				type='submit'
-				className='addTask-btn'
+				className='add-btn'
 			>
 				Add Chore
 			</button>

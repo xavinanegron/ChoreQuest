@@ -17,7 +17,6 @@ const router = createBrowserRouter(
 	createRoutesFromElements(
 		<>
 			<Route
-				index
 				path='/'
 				element={<HomePage />}
 			/>

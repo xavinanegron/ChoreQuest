@@ -2,19 +2,20 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import HomePage from '../../pages/HomePage';
 
 function HomeButton() {
 	return (
 		<Link
 			type='submit'
-			className='home-btn'
 			to='/'
+			className='home-btn'
 		>
-			Home{' '}
 			<FontAwesomeIcon
 				icon={faHouse}
-				size='md'
-			/>
+				size='sm'
+			/>{' '}
+			Home
 		</Link>
 	);
 }

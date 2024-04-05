@@ -9,11 +9,11 @@ import RewardCatalog from '../features/Rewards/RewardCatalog';
 import UserStats from '../features/User/UserStats';
 
 function HomePage() {
-	const defaultOptions = {
-		loop: true,
-		autoplay: true,
-		animationData: cutesies,
-	};
+	// const defaultOptions = {
+	// 	loop: true,
+	// 	autoplay: true,
+	// 	animationData: cutesies,
+	// };
 	return (
 		<>
 			<Header />
