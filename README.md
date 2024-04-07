@@ -1,5 +1,5 @@
 # App is under construction... 🛠️👷‍♀️
-## ![ChoreQuest-Chore-Tracker-for-Kids](https://github.com/xavinanegron/ChoreQuest/assets/146385936/061a24f7-41f2-4be5-b71d-3fe69b98cb84)
+## 
 
 # Getting Started with Create React App
 
