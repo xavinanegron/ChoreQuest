@@ -15,7 +15,7 @@ body {
 .app-name {
 	text-align: center;
 	color: #fafafa;
-	background-color: #26c1fc;
+	background-color: rgb(86, 205, 249);
 	padding-top: 13rem;
 	padding-bottom: rem;
 	box-shadow: 4px 8px rgba(0, 0, 0, 0.1);
@@ -98,12 +98,12 @@ h2 {
 	padding: 3.5rem;
 	padding-bottom: 17rem;
 	/* background-color: #bada55; */
-	background-color: #26c1fc;
+	background-color: rgb(86, 205, 249);
 }
 
 .cutesies {
 	width: 100%;
-	color: #70d6ff;
+	color: rgb(126, 212, 212);
 }
 
 /* Sub Header Button Styling */
@@ -145,7 +145,7 @@ h2 {
 }
 
 .my-profile-btn {
-	background: #fc606e;
+	background: #998ceb;
 	font-size: 1.4rem;
 	font-weight: 600;
 	color: #fafafa;
@@ -154,11 +154,11 @@ h2 {
 	padding: 2rem 2rem;
 	cursor: pointer;
 	text-decoration: none;
-	box-shadow: 0px 5px 10px 0px #8d6c6f;
+	box-shadow: 0px 5px 10px 0px #554e80;
 }
 
 .my-profile-btn:hover {
-	background: #f76d7e;
+	background: #aca2ed;
 }
 
 .home-btn {
@@ -181,18 +181,18 @@ h2 {
 }
 
 .MenuTaskList {
-	background-color: #8dca47;
+	background-color: #8093f1;
 	padding-top: 4rem;
 	padding-right: 4rem;
 }
 
 .MenuRewardList {
-	background-color: #998ceb;
+	background-color: rgb(239, 75, 75);
 	padding-top: 4rem;
 	padding-right: 4rem;
 }
 .MenuStats {
-	background-color: #fc606e;
+	background-color: rgb(86, 205, 249);
 	padding-top: 4rem;
 	padding-right: 4rem;
 }
@@ -201,58 +201,51 @@ h2 {
 
 /* About */
 .about-container {
-	/* padding: 4rem 13rem; */
-	padding-top: 10rem;
-	padding-bottom: 10rem;
-	padding-right: 10rem;
-	padding-left: 10rem;
-	background-color: white;
-	box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1);
+	/* background-color: #d5f1fc; */
+	/* background-color: #8dca47; */
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 6rem 17rem;
 }
 
 .about-container h2 {
-	/* color: #26c1fc; */
-	color: #998ceb;
-	text-shadow: 2px 6px 2px rgba(47, 20, 63, 0.2);
-	padding-bottom: 2rem;
-	text-transform: capitalize;
-	font-size: 3.5rem;
-}
-.about-info-container {
-	padding-top: 4rem;
-	box-shadow: 8px 5px 8px 2px rgba(48, 22, 63, 0.2);
-	border-radius: 15px;
+	font-size: 3.2rem;
+	color: #febd3a;
+	text-align: start;
+	padding-bottom: 1rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+
+	font-family: 'Paytone One';
 }
 
-.about-info {
-	font-family: 'Paytone One';
-	font-size: 18px;
-	color: #575661;
-	/* color: #186888; */
+.about-info-container p {
+	font-size: 20px;
+	color: #46454f;
 	text-align: start;
-	font-weight: 500;
 	font-family: 'Arial';
+	line-height: 35px;
+	letter-spacing: 1px;
 }
 
 .about-image img {
 	max-width: 100%;
-	height: 450px;
-	padding-left: 4rem;
+	height: 300px;
 }
 
 /* Task List Styling */
 
 .chore-title {
-	font-size: 3.5rem;
-	/* font-weight: 600; */
+	font-size: 3.2rem;
 	color: #fafafa;
-	text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+	text-shadow: 5px 8px 2px rgba(0, 0, 0, 0.2);
 	text-align: start;
 }
 
 .chore-title-question {
-	font-size: 1.8rem;
+	font-size: 1.7rem;
 	/* font-weight: 600; */
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 	padding-bottom: 4rem;
@@ -263,16 +256,15 @@ h2 {
 
 .task-list {
 	/* background-color: rgb(244, 232, 213); */
-	background-color: #8dca47;
+	background-color: #8093f1;
 	padding: 4rem 15rem;
-
 	/* border-radius: 10rem; */
 	/* box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1); */
 }
 .task-container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+
 	text-align: center;
 }
 
@@ -282,7 +274,7 @@ span.emoji {
 }
 
 .tasks h3 {
-	font-size: 24px;
+	font-size: 25px;
 	font-family: 'Paytone One';
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 	color: #575661;
@@ -296,13 +288,14 @@ span.emoji {
 	text-align: center;
 }
 
-.tasks .points-earned {
-	font-size: 20px;
-	color: #75ba66;
+.task-points {
+	font-size: 25px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .task-completed-button {
-	background: #26c1fc;
+	background: rgb(165, 226, 73);
 	font-size: 1.2rem;
 	font-weight: 600;
 	color: #fafafa;
@@ -319,8 +312,8 @@ span.emoji {
 	background: #fafafa;
 	font-size: 1.2rem;
 	font-weight: 600;
-	color: #26c1fc;
-	border: 5px dotted #26c1fc;
+	color: rgb(165, 226, 73);
+	border: 5px dotted rgb(165, 226, 73);
 	border-radius: 20px;
 	padding: 1rem;
 	margin-top: 1rem;
@@ -330,12 +323,17 @@ span.emoji {
 }
 
 .task {
-	background-color: #fafafa;
+	background-color: white;
 	border-radius: 10px;
 	width: 100%;
 	box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
-	padding: 1.5rem;
+	padding: 2rem;
 	margin: 1rem;
+}
+
+.trash-icon {
+	margin-left: auto;
+	cursor: pointer;
 }
 
 /* Hover over Task */
@@ -344,8 +342,25 @@ span.emoji {
 	border-radius: 10px;
 	width: 100%;
 	box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
-	padding: 1.5rem;
+	padding: 2rem;
 	margin: 1rem;
+}
+
+/* Sort Styling */
+.sort-select {
+	font-size: 1.6rem;
+	padding: 1px 2px;
+	font-family: 'Paytone One';
+	border-radius: 4px;
+	/* border: 1px solid #ccc; */
+	border: none;
+	background-color: transparent;
+	color: #fafafa;
+}
+
+.sorting {
+	display: flex;
+	justify-content: end;
 }
 
 /* Add Task Form Styling */
@@ -355,10 +370,11 @@ span.emoji {
 
 .form-description {
 	color: #fafafa;
+	font-family: 'Paytone One';
 	text-align: center;
 	padding-bottom: 1rem;
 	font-size: 2rem;
-	text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .AddTaskChoreForm {
@@ -385,7 +401,7 @@ span.emoji {
 
 .add-btn {
 	/* box-shadow: 0px 5px 10px 0px rgba(47, 20, 63, 0.2); */
-	background: #fc606e;
+	background: #26c1fc;
 	font-size: 1.2rem;
 	font-weight: 600;
 	color: #fafafa;
@@ -396,21 +412,21 @@ span.emoji {
 	cursor: pointer;
 }
 .add-btn:hover {
-	background: #f76d7e;
+	/* background: #7bd4f7; */
 }
 
 /* Rewards Page */
 
 .reward-title {
 	padding-top: 2rem;
-	font-size: 3.5rem;
+	font-size: 3.2rem;
 	color: #fafafa;
 	text-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
 	text-align: start;
 }
 
 .reward-title-statement {
-	font-size: 1.8rem;
+	font-size: 1.7rem;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 	padding-bottom: 3rem;
 	color: #fafafa;
@@ -420,13 +436,13 @@ span.emoji {
 .rewards-list {
 	display: flex;
 	/* background-color: #f1bc41; */
-	background-color: #998ceb;
+	background-color: rgb(239, 75, 75);
 	padding: 4rem 15rem;
 	/* box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1); */
 }
 
 .rewards h3 {
-	font-size: 24px;
+	font-size: 22px;
 	font-family: 'Paytone One';
 	text-align: center;
 	color: #575661;
@@ -439,12 +455,14 @@ span.emoji {
 }
 
 .reward {
-	background-color: #fafafa;
+	background-color: white;
 	border-radius: 10px;
 	width: 100%;
 	box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
-	padding: 1.5rem;
+	padding: 2rem;
 	margin: 1rem;
+	display: flex;
+	flex-direction: column;
 	text-align: center;
 }
 
@@ -454,7 +472,7 @@ span.emoji {
 	width: 100%;
 	box-shadow: 5px 8px 2px rgba(47, 20, 63, 0.2);
 	/* background-color: #e0f3fb; */
-	padding: 1.5rem;
+	padding: 2rem;
 	margin: 1rem;
 	display: flex;
 	flex-direction: column;
@@ -493,7 +511,7 @@ span.emoji {
 
 .user-stat-container {
 	display: flex;
-	background-color: #fc606e;
+	background-color: rgb(86, 205, 249);
 	padding: 4rem 15rem;
 	/* border-radius: 10rem; */
 	/* box-shadow: 8px 8px rgba(0, 0, 0, 0.1), 8px -8px rgba(0, 0, 0, 0.1); */
@@ -509,7 +527,7 @@ span.emoji {
 }
 
 .stats-title-question {
-	font-size: 1.8rem;
+	font-size: 1.7rem;
 	/* font-weight: 600; */
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 	padding-bottom: 4rem;
@@ -522,7 +540,7 @@ span.emoji {
 	padding: 5rem;
 	box-shadow: 8px 5px 8px 2px rgba(48, 22, 63, 0.2);
 	border-radius: 15px;
-	background-color: #fafafa;
+	background-color: white;
 }
 
 .avail-container {
@@ -551,6 +569,134 @@ span.emoji {
 .coin-image {
 	display: inline-block;
 	vertical-align: middle;
-	width: 50px;
+	width: 40px;
 	height: auto;
+}
+
+.points-container {
+	background-color: white;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+	.about-container {
+		flex-direction: column;
+		padding: 3.6rem 6rem; /* Adjusted padding for better spacing */
+	}
+	.about-info-container p {
+		font-size: 16px; /* Reduced font size by 2 pixels */
+		line-height: 28px; /* Reduced line height for better appearance */
+	}
+	.about-image img {
+		height: 250px; /* Reduced height by 46 pixels */
+	}
+	.task-list {
+		padding: 2.4rem 6rem; /* Adjusted padding for better spacing */
+	}
+	.rewards-list {
+		padding: 2.4rem 6rem; /* Adjusted padding for better spacing */
+	}
+	.user-stat-container {
+		padding: 2.4rem 6rem; /* Adjusted padding for better spacing */
+	}
+	.stats-image img {
+		height: 250px; /* Reduced height by 46 pixels */
+	}
+	.stats-container {
+		flex-direction: column;
+		padding: 3.6rem 6rem; /* Adjusted padding for better spacing */
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.about-container {
+		padding: 3.6rem 3rem; /* Adjusted padding for better spacing */
+	}
+	.about-info-container p {
+		font-size: 14px; /* Reduced font size by 4 pixels */
+		line-height: 26px; /* Reduced line height for better appearance */
+	}
+	.about-image img {
+		height: 200px; /* Reduced height by 96 pixels */
+	}
+	.task-list {
+		padding: 2.4rem 3rem; /* Adjusted padding for better spacing */
+	}
+	.rewards-list {
+		padding: 2.4rem 3rem; /* Adjusted padding for better spacing */
+	}
+	.user-stat-container {
+		padding: 2.4rem 3rem; /* Adjusted padding for better spacing */
+	}
+	.stats-image img {
+		height: 200px; /* Reduced height by 96 pixels */
+	}
+	.stats-container {
+		padding: 3.6rem 3rem; /* Adjusted padding for better spacing */
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.app-name-title {
+		font-size: 1.5rem; /* Reduced font size by 2 pixels */
+	}
+	.app-name-title-2 {
+		font-size: 2rem; /* Reduced font size by 2 pixels */
+	}
+	.header h2 {
+		font-size: 1.4rem; /* Reduced font size by 2 pixels */
+	}
+	.welcome-message {
+		font-size: 1.4rem; /* Reduced font size by 2 pixels */
+	}
+	.name-label {
+		font-size: 0.8rem; /* Reduced font size by 2 pixels */
+	}
+	.name-input-box {
+		font-size: 0.8rem; /* Reduced font size by 2 pixels */
+		padding: 0.6rem; /* Adjusted padding for better appearance */
+	}
+	.welcome-button {
+		font-size: 0.8rem; /* Reduced font size by 2 pixels */
+		border-radius: 10px; /* Adjusted border radius for better appearance */
+		padding: 0.5rem 1.4rem; /* Adjusted padding for better appearance */
+		margin-top: 0.6rem; /* Reduced margin for better spacing */
+	}
+	.menu-buttons {
+		padding: 2.5rem 1rem; /* Adjusted padding for better spacing */
+		padding-bottom: 8rem; /* Reduced padding for better spacing */
+	}
+	.chore-title {
+		font-size: 2rem; /* Reduced font size by 2 pixels */
+	}
+	.chore-title-question {
+		font-size: 1.2rem; /* Reduced font size by 2 pixels */
+		padding-bottom: 2rem; /* Reduced padding for better spacing */
+	}
+	.task-list {
+		padding: 2.4rem 1rem; /* Adjusted padding for better spacing */
+	}
+	.sort-select {
+		font-size: 1.2rem; /* Reduced font size by 2 pixels */
+		padding: 0.6rem 1.2rem; /* Adjusted padding for better appearance */
+	}
+	.form {
+		margin: 2.4rem 1.2rem; /* Adjusted margin for better spacing */
+	}
+	.form-description {
+		font-size: 1.2rem; /* Reduced font size by 2 pixels */
+		padding-bottom: 0.6rem; /* Reduced padding for better spacing */
+	}
+	.add-input {
+		font-size: 14px; /* Reduced font size by 4 pixels */
+		margin-top: 0.3rem; /* Reduced margin for better spacing */
+		padding: 0.6rem; /* Adjusted padding for better appearance */
+		border-radius: 10px; /* Adjusted border radius for better appearance */
+	}
+	.add-btn {
+		font-size: 0.8rem; /* Reduced font size by 2 pixels */
+		border-radius: 10px; /* Adjusted border radius for better appearance */
+		padding: 0.6rem 1.2rem; /* Adjusted padding for better appearance */
+		margin-top: 0.6rem; /* Reduced margin for better spacing */
+	}
 }

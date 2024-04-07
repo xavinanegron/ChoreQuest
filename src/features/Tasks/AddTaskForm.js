@@ -41,9 +41,8 @@ const AddTaskForm = ({ addTask }) => {
 			onSubmit={handleSubmit}
 		>
 			<h2 className='form-description'>
-				Create Your Adventures! <br />
-				Add your own chore, <br />
-				set a point value and pick your emoji.
+				Create Your Own Chores! <br />
+				Set a point value and pick your emoji.
 			</h2>
 			<input
 				type='text'

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import HomeButton from '../Header/HomeButton';
 import ExploreTaskButton from '../Tasks/ExploreTaskButton';
 import ViewRewardsButton from '../Rewards/ViewRewardsButton';
@@ -25,7 +25,7 @@ function UserStats() {
 									alt='coin'
 									className='coin-image'
 								/>
-								<h3 className='stats-points'>625</h3>
+								<h3 className='stats-points'></h3>
 							</div>
 							<h4 className='points-description'>Available Points</h4>
 						</div>
@@ -36,7 +36,7 @@ function UserStats() {
 									alt='coin'
 									className='coin-image'
 								/>
-								<h3 className='stats-points'>1340</h3>
+								<h3 className='stats-points'></h3>
 							</div>
 							<h4 className='points-description'>Total Lifetime Points</h4>
 						</div>

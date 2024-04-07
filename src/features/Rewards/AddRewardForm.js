@@ -42,13 +42,13 @@ const AddRewardForm = ({ addReward }) => {
 			onSubmit={handleSubmit}
 		>
 			<h2 className='form-description'>
-				Craft your Own Rewards! <br />
+				Create Your Own Rewards! <br />
 				Set a point value and pick your emoji.
 			</h2>
 			<input
 				type='text'
 				className='add-input'
-				placeholder='Reward'
+				placeholder='create Reward'
 				value={rewardName}
 				onChange={(e) => setRewardName(e.target.value)}
 			/>
