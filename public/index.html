@@ -55,5 +55,15 @@
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
+
+		<!-- Confetti Effect -->
+		<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+		<script>
+			document
+				.getElementsByClassName('task-completed-button')[0]
+				.addEventListener('click', () => {
+					confetti();
+				});
+		</script>
 	</body>
 </html>

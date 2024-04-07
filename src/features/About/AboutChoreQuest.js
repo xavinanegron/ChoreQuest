@@ -1,7 +1,4 @@
 import React from 'react';
-import ExploreTaskButton from '../Tasks/ExploreTaskButton';
-import ViewRewardsButton from '../Rewards/ViewRewardsButton';
-import UserProfile from '../User/UserProfile';
 
 function AboutChoreQuest() {
 	return (
@@ -11,14 +8,18 @@ function AboutChoreQuest() {
 					<div className='about-info-container'>
 						<h2>About</h2>
 						<p className='about-info'>
-							ChoreQuest is a chore tracker app targeting kids and their
-							parents, aiming to gamify household responsibilities. This
-							friendly app transforms chores from mundane tasks into engaging,
-							interactive quests, making chores a shared adventure rather than a
-							burden. Users can easily assign tasks, track points, get rewarded
-							for completing chores and create custom ones. ChoreQuest promotes
-							teamwork and instills a sense of achievement in both parents and
-							kids.
+							ChoreQuest is a dynamic chore tracking application designed to
+							reinvent household responsibilities for both kids and parents. By
+							gamifying chores, ChoreQuest transforms mundane tasks into
+							exciting adventures, fostering collaboration and turning everyday
+							responsibilities into shared triumphs. Users can effortlessly
+							complete chores, track their points, and unlock rewards, all while
+							enjoying an engaging and interactive experience. Users also have
+							the flexibility to create custom chores and rewards, adding a
+							personalized touch to their journey. Encouraging teamwork and
+							instilling a sense of accomplishment, ChoreQuest empowers families
+							to tackle chores together and celebrate their achievements along
+							the way.
 						</p>
 					</div>
 				</div>
@@ -28,7 +29,7 @@ function AboutChoreQuest() {
 						<img
 							src='/media/trophy.png'
 							alt='trophy'
-							className='img-fluid' // Add Bootstrap class for responsive images
+							className='img-fluid'
 						/>
 					</div>
 				</div>

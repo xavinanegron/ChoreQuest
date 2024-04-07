@@ -18,11 +18,6 @@ const AddRewardForm = ({ addReward }) => {
 			return;
 		}
 
-		// if (isNaN(points) || points < 5) {
-		// 	alert('Point value must be greater than 5.');
-		// 	return;
-		// }
-
 		//Call addTask Function with new chore data
 		addReward({
 			name: rewardName,

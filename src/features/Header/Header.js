@@ -1,5 +1,4 @@
 import WelcomeUser from '../User/WelcomeUser';
-import SubHeader from './SubHeader';
 
 const Header = () => {
 	return (

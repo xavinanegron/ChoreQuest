@@ -28,9 +28,12 @@ const WelcomeUser = () => {
 			{name ? (
 				<h1 className='welcome-message'>Hi, {name} 👋</h1>
 			) : (
-				<form onSubmit={handleSubmit} className='name-form'>
+				<form
+					onSubmit={handleSubmit}
+					className='name-form'
+				>
 					<label className='name-label'>
-						Enter your name below: <br/>
+						Enter your name below: <br />
 						<input
 							className='name-input-box'
 							type='text'

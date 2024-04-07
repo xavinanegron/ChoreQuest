@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import HomeButton from '../Header/HomeButton';
 import ExploreTaskButton from '../Tasks/ExploreTaskButton';
 import ViewRewardsButton from '../Rewards/ViewRewardsButton';
+import { usePoints } from '../Points/PointsContext';
 
 function UserStats() {
+	const { points, lifetimeEarnedPoints } = usePoints();
 	return (
 		<>
 			<div className='MenuStats d-flex justify-content-end'>
@@ -25,7 +27,7 @@ function UserStats() {
 									alt='coin'
 									className='coin-image'
 								/>
-								<h3 className='stats-points'></h3>
+								<h3 className='stats-points'>{points}</h3>
 							</div>
 							<h4 className='points-description'>Available Points</h4>
 						</div>
@@ -36,7 +38,7 @@ function UserStats() {
 									alt='coin'
 									className='coin-image'
 								/>
-								<h3 className='stats-points'></h3>
+								<h3 className='stats-points'>{lifetimeEarnedPoints}</h3>
 							</div>
 							<h4 className='points-description'>Total Lifetime Points</h4>
 						</div>
