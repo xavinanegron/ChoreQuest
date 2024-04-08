@@ -1,5 +1,5 @@
 # ChoreQuest 🏆 - React JS App
-ChoreQuest is a chore tracker app targeting kids and their families, aiming to gamify household responsibilities. Built with React, users can effortlessly complete chores, track their points, and unlock rewards, all while enjoying an engaging and interactive experience. Users also have the flexibility to create custom chores and rewards, adding a personalized touch to their journey. Future plans include the addition user profiles and authentication.
+ChoreQuest is a chore tracker app targeting kids and their families, aiming to gamify household responsibilities. Users can effortlessly complete chores, track their points, and unlock rewards, all while enjoying an engaging and interactive experience. Users also have the flexibility to create custom chores and rewards, adding a personalized touch to their journey. Future plans include the addition user profiles and authentication.
 <br>
 ## Key Features
 **Chores:** Users can easily mark chores as completed and have the ability to remove chores they don't want. Users can also create their own chores, set a point value, etc. There is also a sorting option to sort chores based on their point value. 
@@ -17,7 +17,7 @@ ChoreQuest is a chore tracker app targeting kids and their families, aiming to g
 * React Router
 * React Hooks: useState, useEffect
 * Conditional rendering
-* Error Handling and User Feedback:
+* Error Handling and User Feedback
 * Animations
 
 ## Technolgies 
