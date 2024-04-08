@@ -1,5 +1,38 @@
-# App is under construction... 🛠️👷‍♀️
-## 
+# ChoreQuest 🏆 - React JS App
+ChoreQuest is a chore tracker app targeting kids and their families, aiming to gamify household responsibilities. Built with React, users can effortlessly complete chores, track their points, and unlock rewards, all while enjoying an engaging and interactive experience. Users also have the flexibility to create custom chores and rewards, adding a personalized touch to their journey. Future plans include the addition user profiles and authentication.
+<br>
+## Key Features
+**Chores:** Users can easily mark chores as completed and have the ability to remove chores they don't want. Users can also create their own chores, set a point value, etc. There is also a sorting option to sort chores based on their point value. 
+<br>
+**Rewards:** Users can redeem their earned points for fun rewards. Create custom rewards and have the ability to remove rewards they don't want. There is also a sorting option to sort rewards based on their point value.
+<br>
+**User Stats:** Available points are updated when chores are completed and rewards are redeemed. The user can see their current available points as well as total lifetime points earned for completing chores.
+
+## Key React & JavaScript Concepts 
+
+* ES6+ Syntax
+* React Context API
+* State Management
+* Event Handling
+* React Router
+* React Hooks: useState, useEffect
+* Conditional rendering
+* Error Handling and User Feedback:
+* Animations
+
+## Technolgies 
+* `ReactJS`
+* `JavaScript`
+* `HTML`
+* `CSS`
+* `Bootstrap`
+* `Canvas Confetti NPM Package`
+* `Font Awesome Icons`
+
+## Live Demo
+Check out the live demo here: [ChoreQuest- A Chore Tracker App for kids](https://chore-quest-zeta.vercel.app/)
+
+
 
 # Getting Started with Create React App
 
