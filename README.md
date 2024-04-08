@@ -32,6 +32,7 @@ ChoreQuest is a chore tracker app targeting kids and their families, aiming to g
 ## Live Demo
 Check out the live demo here: [ChoreQuest- A Chore Tracker App for kids](https://chore-quest-zeta.vercel.app/)
 
+![ChoreQuest-Chore-Tracker-for-Kids](https://github.com/xavinanegron/ChoreQuest/assets/146385936/ca46109d-fb40-4574-8a80-34d9649667ca)
 
 
 # Getting Started with Create React App
