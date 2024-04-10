@@ -20,7 +20,7 @@ ChoreQuest is a chore tracker app targeting kids and their families, aiming to g
 * Error Handling and User Feedback
 * Animations
 
-## Technolgies 
+## Technologies 
 * `ReactJS`
 * `JavaScript`
 * `HTML`
